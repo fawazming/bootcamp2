@@ -1,0 +1,14 @@
+CRITICAL - 2021-07-25 03:02:04 --> ErrorException: Undefined variable $user
+[Method: GET, Route: pay]
+in APPPATH\Views\payment\home.php on line 6.
+ 1 APPPATH\Views\payment\home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\bootcamp2.0\\app\\Views\\payment\\home.php', 6)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\bootcamp2.0\\app\\Views\\payment\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('payment/home', [], true)
+ 5 APPPATH\Controllers\Payment.php(10): view('payment/home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

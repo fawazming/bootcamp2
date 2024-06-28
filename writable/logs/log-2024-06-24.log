@@ -1,0 +1,64 @@
+CRITICAL - 2024-06-24 03:33:00 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: pay]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/')
+ 4 APPPATH\Controllers\Payment.php(21): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->Pay()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-24 03:35:00 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: pay]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/')
+ 4 APPPATH\Controllers\Payment.php(21): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->Pay()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-24 03:36:07 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: pay]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/')
+ 4 APPPATH\Controllers\Payment.php(21): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->Pay()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-24 03:38:40 --> CodeIgniter\HTTP\Exceptions\HTTPException: 22 : The requested URL returned error: 400
+[Method: POST, Route: pay]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 693.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(693): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('22', 'The requested URL returned error: 400')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/')
+ 4 APPPATH\Controllers\Payment.php(21): CodeIgniter\HTTP\CURLRequest->request('POST', 'https://api.payvessel.com/api/external/request/customerReservedAccount/', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Payment->Pay()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-24 06:03:48 --> ParseError: syntax error, unexpected identifier "dd"
+[Method: POST, Route: pay]
+in APPPATH\Controllers\Payment.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\bootcamp2.0\\app\\Controllers\\Payment.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Payment')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Payment')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Payment', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
