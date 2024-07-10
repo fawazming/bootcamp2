@@ -1,0 +1,135 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS 222</title>
+</head>
+<body>
+	<center><h1>Original Design</h1></center>
+	<center><img src="original.jpg" alt=""></center>
+
+	<div class="sidebyside">
+		<main class="box">
+			<h2 class="rating">2.7</h2>
+			<div class="stars">
+				<img src="https://icongr.am/fontawesome/star.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-half-o.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-o.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-o.svg?size=28&color=currentColor" alt="">	
+			</div>
+			<button class="btn">Sign in</button>
+			<p class="inst">To rate and review, <br> please sign in</p>
+		</main>
+
+		<main class="box">
+			<h2 class="rating">2.7</h2>
+			<div class="stars">
+				<img src="https://icongr.am/fontawesome/star.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-half-o.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-o.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-o.svg?size=28&color=currentColor" alt="">	
+			</div>
+			<button class="btn">Sign in</button>
+			<p class="inst">To rate and review, <br> please sign in</p>
+		</main>
+
+		<main class="box">
+			<h2 class="rating">2.7</h2>
+			<div class="stars">
+				<img src="https://icongr.am/fontawesome/star.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-half-o.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-o.svg?size=28&color=currentColor" alt="">
+				<img src="https://icongr.am/fontawesome/star-o.svg?size=28&color=currentColor" alt="">	
+			</div>
+			<button class="btn">Sign in</button>
+			<p class="inst">To rate and review, <br> please sign in</p>
+		</main>
+	</div>
+
+	<center><h1>NAVBAR SAMPLE</h1></center>
+	<br><br>
+
+	<nav class="navbar">
+		<p class="logo">Afrab</p>
+		<ul class="linklist">
+			<li><a href="home.html"> Home </a></li>
+			<li><a href="about.html"> About </a></li>
+			<li><a href="blog.html"> Blog </a></li>
+			<li><a href="app.html"> App </a></li>
+		</ul>
+	</nav>
+	
+
+	<style>
+		body{
+			background-color: #ffa2bd;
+		}
+		.navbar{
+			display: flex;
+			justify-content: space-around;
+			font-family: tahoma;
+			font-size: 1.6em;
+			align-items: center;
+			background-color: #fff;
+		}
+		.linklist{
+			display: flex;
+			list-style: none;
+		}
+	    .linklist li{
+	    	margin-left: 15px;
+	    }
+	    .linklist li a{
+	    	color: #000;
+	    	text-decoration: none;
+	    }
+	    .linklist li a:hover{
+	    	color: #888;
+	    	text-decoration: line-through;
+	    }
+	    .logo{
+	    	font-family: fantasy;
+	    	font-size: 2em;
+	    }
+		.sidebyside{
+			display: flex;
+			flex: row;
+			justify-content: space-evenly;
+		}
+		.box{
+			background-color: #fff;
+			text-align: center;
+			width: 300px;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			font-family: lato, sans-serif;
+		}
+		.rating{
+			font-size: 6em;
+			margin:0;
+		}
+		.stars{
+			margin-top: 10px;
+		}
+		.btn{
+			margin-top: 40px;
+			border-radius: 60px;
+			border: 0;
+			color: #fff;
+			padding: 20px 70px;
+			font-size: 1.3em;
+			background: rgb(134,196,255);
+			background: linear-gradient(50deg, rgba(134,196,255,1) 0%, rgba(117,167,255,1) 46%, rgba(104,141,255,1) 100%);
+		}
+		.inst{
+			font-weight: 600;
+			color: #888;
+
+		}
+	</style>
+</body>
+</html>

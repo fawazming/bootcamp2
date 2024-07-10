@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mobile App</title>
+</head>
+<style>
+	body{
+		font-family: sans-serif;
+		display: flex;
+		justify-content: space-around;
+	}
+	main{
+		background-color: #fffed3;
+		padding: 10px 20px;
+		width: 400px;
+		height: 95vh;
+	}
+	p, h2, h3{
+		margin: 0;
+	}
+	h2{
+		margin-top: 30px;
+		font-size: 2.2em;
+	}
+	h3{
+		font-size: 0.9em;
+		font-weight: 500;
+	}
+	.top{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.pill{
+		background-color: #b1afff;
+		padding: 2px 5px;
+		border-radius: 15px;
+	}
+	.pill p{
+		margin: 0;
+	}
+	.help p{
+		border: 1px #000 solid;
+		border-radius: 100px;
+		padding: 0 5px;
+	}
+	.btns{
+		margin-top: 15px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.btns button{
+		font-size: 1.2em;
+		padding: 10px 15px;
+		border-radius: 0;
+		width: 47%;
+	}
+	.btn-yellow{
+		background-color: #b1afff;
+		border: 2px #b1afff solid;
+	}
+	.btn-white{
+		background-color: transparent;
+		border: 2px #000 solid;
+	}
+	.btn-yellow:hover{
+		background-color: transparent;
+		border: 2px #000 solid;
+	}
+	.btn-white:hover{
+		background-color: white;
+		border: 2px #000 solid;
+	}
+	.twh{
+		margin-top: 20px;
+		background-color: #fff;
+		padding: 10px 15px;
+	}
+	.llo{
+		margin-bottom: 10px;
+		font-weight: 600;
+		font-size: 1.5em;
+	}
+	.twh1{
+		display: flex;
+		justify-content: space-between;
+	}
+	.twh1 p{
+		font-weight: 400;
+		font-size: 0.8em;
+		color: #999;
+	}
+	.twh1 p span{
+		font-weight: 600;
+		font-size: 1.5em;
+		color: #000;
+
+	}
+	.pp1{
+		border: 1px #999 solid;
+	}
+</style>
+<body>
+	<main class="app">
+		<div class="top">
+			<div class="pill">
+				<p>📅 Mon, Jul 2nd, 2022</p>
+			</div>
+			<div class="help">
+				<p>?</p>
+			</div>
+		</div>
+
+		<h2>You are clocked in</h2>
+		<h3>06:40hrs</h3>
+
+		<div class="btns">
+			<button class="btn-yellow">Take a Break</button>
+			<button class="btn-white">Clock Out </button>
+		</div>
+
+		<div class="twh">
+			<p class="llo">💼 Total working hour</p>
+
+			<div class="twh1">
+				<p>Today <br> <span>00:00Hrs</span></p>
+				<div class="pp1"></div>
+				<p>This pay period <br> <span>45:56Hrs</span></p>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
